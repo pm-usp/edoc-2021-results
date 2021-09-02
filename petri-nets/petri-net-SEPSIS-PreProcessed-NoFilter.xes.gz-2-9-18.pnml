@@ -1,0 +1,921 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="pi9">
+        <name>
+          <text>pi9</text>
+        </name>
+      </place>
+      <place id="pi51">
+        <name>
+          <text>pi51</text>
+        </name>
+      </place>
+      <place id="pi79">
+        <name>
+          <text>pi79</text>
+        </name>
+      </place>
+      <place id="pi18">
+        <name>
+          <text>pi18</text>
+        </name>
+      </place>
+      <place id="pi30">
+        <name>
+          <text>pi30</text>
+        </name>
+      </place>
+      <place id="pi2">
+        <name>
+          <text>pi2</text>
+        </name>
+      </place>
+      <place id="pi14">
+        <name>
+          <text>pi14</text>
+        </name>
+      </place>
+      <place id="pi15">
+        <name>
+          <text>pi15</text>
+        </name>
+      </place>
+      <place id="pi19">
+        <name>
+          <text>pi19</text>
+        </name>
+      </place>
+      <place id="pi58">
+        <name>
+          <text>pi58</text>
+        </name>
+      </place>
+      <place id="pi0">
+        <name>
+          <text>pi0</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="pi39">
+        <name>
+          <text>pi39</text>
+        </name>
+      </place>
+      <place id="pi74">
+        <name>
+          <text>pi74</text>
+        </name>
+      </place>
+      <place id="pi12">
+        <name>
+          <text>pi12</text>
+        </name>
+      </place>
+      <place id="pi16">
+        <name>
+          <text>pi16</text>
+        </name>
+      </place>
+      <place id="pi17">
+        <name>
+          <text>pi17</text>
+        </name>
+      </place>
+      <place id="pi75">
+        <name>
+          <text>pi75</text>
+        </name>
+      </place>
+      <place id="pi20">
+        <name>
+          <text>pi20</text>
+        </name>
+      </place>
+      <place id="pi59">
+        <name>
+          <text>pi59</text>
+        </name>
+      </place>
+      <place id="pi65">
+        <name>
+          <text>pi65</text>
+        </name>
+      </place>
+      <place id="pi1">
+        <name>
+          <text>pi1</text>
+        </name>
+      </place>
+      <place id="pi3">
+        <name>
+          <text>pi3</text>
+        </name>
+      </place>
+      <place id="pi8">
+        <name>
+          <text>pi8</text>
+        </name>
+      </place>
+      <place id="pi32">
+        <name>
+          <text>pi32</text>
+        </name>
+      </place>
+      <place id="pi44">
+        <name>
+          <text>pi44</text>
+        </name>
+      </place>
+      <place id="pi87">
+        <name>
+          <text>pi87</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pi5">
+        <name>
+          <text>pi5</text>
+        </name>
+      </place>
+      <place id="pi4">
+        <name>
+          <text>pi4</text>
+        </name>
+      </place>
+      <place id="pi13">
+        <name>
+          <text>pi13</text>
+        </name>
+      </place>
+      <place id="pi84">
+        <name>
+          <text>pi84</text>
+        </name>
+      </place>
+      <transition id="Admission IC">
+        <name>
+          <text>Admission IC</text>
+        </name>
+      </transition>
+      <transition id="Release E">
+        <name>
+          <text>Release E</text>
+        </name>
+      </transition>
+      <transition id="ER Sepsis Triage">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <transition id="silent40">
+        <name>
+          <text>silent40</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12c13351-0c61-44a6-969c-fdf2c8e4f1fa"/>
+      </transition>
+      <transition id="silent68">
+        <name>
+          <text>silent68</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7df0f7ce-da89-4477-b7cf-e6416520cd1f"/>
+      </transition>
+      <transition id="ER Triage">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="silent72">
+        <name>
+          <text>silent72</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="196d723a-ad5f-44d8-b258-1de75346e0b4"/>
+      </transition>
+      <transition id="silent0">
+        <name>
+          <text>silent0</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e189a895-b976-4665-af0d-c6f0f914382a"/>
+      </transition>
+      <transition id="silent51">
+        <name>
+          <text>silent51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9a15864c-cb8f-490a-a9ac-3f31e5683713"/>
+      </transition>
+      <transition id="LacticAcid">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+      </transition>
+      <transition id="silent-end">
+        <name>
+          <text>silent-end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8ef9bbc2-0371-45cd-a6da-ed1d56d1ec6f"/>
+      </transition>
+      <transition id="silent18">
+        <name>
+          <text>silent18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a9251d77-2cef-45e1-9522-96809ab37ae0"/>
+      </transition>
+      <transition id="silent26">
+        <name>
+          <text>silent26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="aaf3d3ba-517a-465e-be97-a55f0a0fdf66"/>
+      </transition>
+      <transition id="silent52">
+        <name>
+          <text>silent52</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f20f2f14-e7e9-4e05-95f1-36f1c254c59a"/>
+      </transition>
+      <transition id="silent2">
+        <name>
+          <text>silent2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="64122c43-7cce-45df-bbf0-18e2ae1e2e50"/>
+      </transition>
+      <transition id="silent14">
+        <name>
+          <text>silent14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0db8a195-8f5a-485e-83d9-2b5dd3609b7c"/>
+      </transition>
+      <transition id="silent24">
+        <name>
+          <text>silent24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7953a18d-1356-4658-b885-e58dedf74de9"/>
+      </transition>
+      <transition id="Release B">
+        <name>
+          <text>Release B</text>
+        </name>
+      </transition>
+      <transition id="silent69">
+        <name>
+          <text>silent69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="041f1ab9-2bb5-4af0-ab60-c28c96d21347"/>
+      </transition>
+      <transition id="silent6">
+        <name>
+          <text>silent6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="88291a3c-663e-4f5d-a989-236e35eff19f"/>
+      </transition>
+      <transition id="silent16">
+        <name>
+          <text>silent16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="644ec5a1-9e03-4db2-88b1-5aecea905d67"/>
+      </transition>
+      <transition id="silent31">
+        <name>
+          <text>silent31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="02239467-8f7f-4ac5-bd17-03c289e2077c"/>
+      </transition>
+      <transition id="silent32">
+        <name>
+          <text>silent32</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3597faa5-81ac-4285-8e5e-38c52140b3af"/>
+      </transition>
+      <transition id="silent56">
+        <name>
+          <text>silent56</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b84743d0-c2da-4e76-a564-cb1278bd3c97"/>
+      </transition>
+      <transition id="silent65">
+        <name>
+          <text>silent65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3ccd3ef5-db47-481c-b07c-65e9806eb493"/>
+      </transition>
+      <transition id="silent9">
+        <name>
+          <text>silent9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b8888ac2-ba4b-469d-9c6f-b5b0ec915471"/>
+      </transition>
+      <transition id="silent25">
+        <name>
+          <text>silent25</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="81295490-ebbf-4c7e-8871-a268c8e52b51"/>
+      </transition>
+      <transition id="Leucocytes">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="silent11">
+        <name>
+          <text>silent11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="eb44a8a2-9180-4d17-8f88-53904dcbc7f0"/>
+      </transition>
+      <transition id="silent43">
+        <name>
+          <text>silent43</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fa600af2-7516-4f64-9481-56708632a167"/>
+      </transition>
+      <transition id="silent36">
+        <name>
+          <text>silent36</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0cb92f2c-728b-437c-b10b-a9bce58c9cb4"/>
+      </transition>
+      <transition id="silent28">
+        <name>
+          <text>silent28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="36788684-3e79-4f8f-862c-bc707f0c6352"/>
+      </transition>
+      <transition id="silent49">
+        <name>
+          <text>silent49</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="53036567-b00c-4112-b8e3-be0f22c90598"/>
+      </transition>
+      <transition id="Release C">
+        <name>
+          <text>Release C</text>
+        </name>
+      </transition>
+      <transition id="silent7">
+        <name>
+          <text>silent7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f299ebfc-f165-4174-acbb-e238d7f21e63"/>
+      </transition>
+      <transition id="silent8">
+        <name>
+          <text>silent8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="114866d9-8fb4-4bb3-9899-ec17b0518c1e"/>
+      </transition>
+      <transition id="silent47">
+        <name>
+          <text>silent47</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ebe9a742-4312-4522-ad4d-96e3fcad905a"/>
+      </transition>
+      <transition id="silent70">
+        <name>
+          <text>silent70</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a9b1dce9-6271-408e-9c95-967a0917acfa"/>
+      </transition>
+      <transition id="silent53">
+        <name>
+          <text>silent53</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="60b3cffd-58a4-43db-9c10-1945634d7cb9"/>
+      </transition>
+      <transition id="CRP">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="silent4">
+        <name>
+          <text>silent4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0bf73f3b-0210-4c10-a22d-483f93152f32"/>
+      </transition>
+      <transition id="silent22">
+        <name>
+          <text>silent22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f25c955-6b8b-453b-bd5c-ca6092b6523d"/>
+      </transition>
+      <transition id="silent27">
+        <name>
+          <text>silent27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5262264c-ae56-42d5-a14f-faca09fd934e"/>
+      </transition>
+      <transition id="silent60">
+        <name>
+          <text>silent60</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8bb2f5a5-3361-48d7-8984-211182bd4487"/>
+      </transition>
+      <transition id="silent63">
+        <name>
+          <text>silent63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="003db4a4-7aa2-47f1-8882-e9c6fd2dc377"/>
+      </transition>
+      <transition id="silent12">
+        <name>
+          <text>silent12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1c32267d-f514-49ff-a838-d0b98ffb9e95"/>
+      </transition>
+      <transition id="silent-begin">
+        <name>
+          <text>silent-begin</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="184705bb-e307-4989-8e7b-e38a068d8aa4"/>
+      </transition>
+      <transition id="silent76">
+        <name>
+          <text>silent76</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ecc64828-4a2a-4be1-821e-7fe4598f7e0b"/>
+      </transition>
+      <transition id="ER Registration">
+        <name>
+          <text>ER Registration</text>
+        </name>
+      </transition>
+      <transition id="silent21">
+        <name>
+          <text>silent21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="56e25cca-b98f-4569-b9fa-2fa5dc8c8413"/>
+      </transition>
+      <transition id="silent23">
+        <name>
+          <text>silent23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="297d1d0f-e7b6-4deb-9a78-67942fdb66b4"/>
+      </transition>
+      <transition id="silent38">
+        <name>
+          <text>silent38</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1019c63a-229c-4add-be3a-abbed5a46d22"/>
+      </transition>
+      <transition id="silent41">
+        <name>
+          <text>silent41</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12dfbf1d-6853-4d59-8c2d-e80f6e83d653"/>
+      </transition>
+      <transition id="silent15">
+        <name>
+          <text>silent15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="be3ece76-6fc3-4ec9-b1d3-04970a430913"/>
+      </transition>
+      <transition id="silent35">
+        <name>
+          <text>silent35</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="aa5d4b59-cc0d-427a-8106-61d6e5afa456"/>
+      </transition>
+      <transition id="silent46">
+        <name>
+          <text>silent46</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d07a6751-0bf9-431a-b9b6-60b7e36975cd"/>
+      </transition>
+      <transition id="silent58">
+        <name>
+          <text>silent58</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4c35d67-212b-4f67-a85e-63128a95f376"/>
+      </transition>
+      <transition id="Release A">
+        <name>
+          <text>Release A</text>
+        </name>
+      </transition>
+      <transition id="Return ER">
+        <name>
+          <text>Return ER</text>
+        </name>
+      </transition>
+      <transition id="silent61">
+        <name>
+          <text>silent61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2650e30e-1f8d-4ce1-9055-49f9e5e44aef"/>
+      </transition>
+      <transition id="silent37">
+        <name>
+          <text>silent37</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="441816d4-a0ce-42fe-ada0-d5d9c525a4db"/>
+      </transition>
+      <transition id="silent55">
+        <name>
+          <text>silent55</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ac8d28e7-eed9-4b4e-945d-3c44cda42d75"/>
+      </transition>
+      <transition id="silent5">
+        <name>
+          <text>silent5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2c5a8eca-1a29-4899-8e0a-67c316e2bf57"/>
+      </transition>
+      <transition id="silent34">
+        <name>
+          <text>silent34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b99107e7-6c3a-4454-a60b-7e0dd7dd2849"/>
+      </transition>
+      <transition id="silent39">
+        <name>
+          <text>silent39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e9f7bacf-e91e-4a29-8e34-d60de363639c"/>
+      </transition>
+      <transition id="silent54">
+        <name>
+          <text>silent54</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4bbde878-d52c-4e6e-a112-eeeced36d0bd"/>
+      </transition>
+      <transition id="IV Antibiotics">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="silent13">
+        <name>
+          <text>silent13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4b8007ac-23b9-4305-9f79-baea14615cb7"/>
+      </transition>
+      <transition id="silent29">
+        <name>
+          <text>silent29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="23d041d4-a164-4f53-9346-5df3a6372a67"/>
+      </transition>
+      <transition id="silent64">
+        <name>
+          <text>silent64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e1d2651b-2410-48a4-8c4f-c84b009d3f73"/>
+      </transition>
+      <transition id="silent50">
+        <name>
+          <text>silent50</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7fe4f729-bc7a-4ca7-8ff2-6c9acd3b8001"/>
+      </transition>
+      <transition id="silent57">
+        <name>
+          <text>silent57</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="24159912-756f-42c6-acc8-9d244d9ed581"/>
+      </transition>
+      <transition id="silent74">
+        <name>
+          <text>silent74</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2372cee6-d206-4b84-9e72-46c42515132a"/>
+      </transition>
+      <transition id="IV Liquid">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="silent1">
+        <name>
+          <text>silent1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fbab1d57-578c-43b1-bfcf-895b992b3a9f"/>
+      </transition>
+      <transition id="silent20">
+        <name>
+          <text>silent20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4f105c3d-b5cd-4706-a624-d7f5c7432084"/>
+      </transition>
+      <transition id="silent42">
+        <name>
+          <text>silent42</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ce22fc1d-27f6-4743-9ed9-cb3a099d78c9"/>
+      </transition>
+      <transition id="silent45">
+        <name>
+          <text>silent45</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7e52cf84-6562-43d8-bbfc-6b9060727b5b"/>
+      </transition>
+      <transition id="silent67">
+        <name>
+          <text>silent67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f8573563-a4a7-4a72-b71e-40802df261d7"/>
+      </transition>
+      <transition id="Release D">
+        <name>
+          <text>Release D</text>
+        </name>
+      </transition>
+      <transition id="silent48">
+        <name>
+          <text>silent48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="67703b8c-acf3-4da2-9861-2a5dd616c1ea"/>
+      </transition>
+      <transition id="silent66">
+        <name>
+          <text>silent66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c50dfe52-629b-46ac-bb7d-d68bf786bb2f"/>
+      </transition>
+      <transition id="silent73">
+        <name>
+          <text>silent73</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f59e70bf-aeea-4000-a050-4d20504dcacf"/>
+      </transition>
+      <transition id="silent30">
+        <name>
+          <text>silent30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6f6c15bc-5cca-49ed-90e5-57f8188894bf"/>
+      </transition>
+      <transition id="silent44">
+        <name>
+          <text>silent44</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b555d314-a98f-4193-a7b4-fd83b0ae295f"/>
+      </transition>
+      <transition id="Admission NC">
+        <name>
+          <text>Admission NC</text>
+        </name>
+      </transition>
+      <transition id="silent10">
+        <name>
+          <text>silent10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="54d1024e-fd59-49a5-b988-b93a76196bc5"/>
+      </transition>
+      <transition id="silent19">
+        <name>
+          <text>silent19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f3828341-bba8-4bf5-b35f-baec86493515"/>
+      </transition>
+      <transition id="silent75">
+        <name>
+          <text>silent75</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="864d92f7-9092-4635-a25a-ee0e1936b4da"/>
+      </transition>
+      <transition id="silent3">
+        <name>
+          <text>silent3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b10fe03a-04f6-47ed-9f6f-21e5cf032301"/>
+      </transition>
+      <transition id="silent33">
+        <name>
+          <text>silent33</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a158c7ce-fc68-4e66-9013-57f2cbc5ec54"/>
+      </transition>
+      <transition id="silent17">
+        <name>
+          <text>silent17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="20723e37-6fb7-4b96-998b-c3bd7e447d39"/>
+      </transition>
+      <transition id="silent59">
+        <name>
+          <text>silent59</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12a04f35-ac2e-41b0-a5d0-44790488128e"/>
+      </transition>
+      <transition id="silent62">
+        <name>
+          <text>silent62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b87eef9d-df16-41ab-86c8-26e35aebd86c"/>
+      </transition>
+      <transition id="silent71">
+        <name>
+          <text>silent71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="953e33d2-08eb-49c7-82a3-9807cf653158"/>
+      </transition>
+      <arc id="139967192091136" source="pi4" target="silent0"/>
+      <arc id="139967162108416" source="silent28" target="pi3"/>
+      <arc id="139964323243008" source="pi51" target="silent55"/>
+      <arc id="139967163210240" source="silent74" target="pi58"/>
+      <arc id="139967190326288" source="pi39" target="silent14"/>
+      <arc id="139967190629392" source="silent14" target="pi1"/>
+      <arc id="139967190627856" source="pi65" target="silent18"/>
+      <arc id="139967190165008" source="silent24" target="pi2"/>
+      <arc id="139967183644176" source="silent49" target="pi15"/>
+      <arc id="139967186894368" source="Leucocytes" target="pi65"/>
+      <arc id="139967191768608" source="silent44" target="pi14"/>
+      <arc id="139967185274912" source="silent45" target="pi14"/>
+      <arc id="139967183953440" source="silent58" target="pi16"/>
+      <arc id="139964318595104" source="pi44" target="silent61"/>
+      <arc id="139964318701600" source="silent65" target="pi18"/>
+      <arc id="139964318703136" source="pi65" target="silent67"/>
+      <arc id="139967187305520" source="silent7" target="pi9"/>
+      <arc id="139967190324272" source="silent11" target="pi1"/>
+      <arc id="139967190627376" source="silent15" target="pi1"/>
+      <arc id="139967193212480" source="silent0" target="pi5"/>
+      <arc id="139967193214016" source="silent1" target="pi5"/>
+      <arc id="139967186302528" source="pi9" target="Admission NC"/>
+      <arc id="139967162105920" source="silent34" target="pi12"/>
+      <arc id="139967162107456" source="pi32" target="silent37"/>
+      <arc id="139967194338880" source="silent50" target="pi16"/>
+      <arc id="139967187308112" source="silent6" target="pi9"/>
+      <arc id="139967190165584" source="pi39" target="silent23"/>
+      <arc id="139967162107984" source="pi65" target="silent30"/>
+      <arc id="139967162106448" source="pi8" target="silent31"/>
+      <arc id="139967183646288" source="pi15" target="LacticAcid"/>
+      <arc id="139964319374928" source="pi20" target="silent70"/>
+      <arc id="139967188776032" source="ER Triage" target="pi39"/>
+      <arc id="139967162108512" source="silent37" target="pi13"/>
+      <arc id="139967194338400" source="pi39" target="silent53"/>
+      <arc id="139967183952480" source="silent59" target="pi17"/>
+      <arc id="139967190626416" source="silent18" target="pi1"/>
+      <arc id="139967162105968" source="silent31" target="pi12"/>
+      <arc id="139967162107504" source="silent38" target="pi13"/>
+      <arc id="139967183642736" source="silent47" target="pi15"/>
+      <arc id="139967191223408" source="pi51" target="silent65"/>
+      <arc id="139967163209328" source="silent75" target="pi58"/>
+      <arc id="139967000997504" source="silent-begin" target="pi0"/>
+      <arc id="139967193214592" source="pi32" target="silent1"/>
+      <arc id="139967193211520" source="pi8" target="silent2"/>
+      <arc id="139967162108032" source="silent29" target="pi3"/>
+      <arc id="139967162106496" source="pi8" target="silent35"/>
+      <arc id="139967162109568" source="silent39" target="pi13"/>
+      <arc id="139967185273472" source="pi44" target="silent45"/>
+      <arc id="139967194339456" source="pi20" target="silent51"/>
+      <arc id="139967194337920" source="silent53" target="pi16"/>
+      <arc id="139964318703232" source="silent66" target="pi30"/>
+      <arc id="139967162107024" source="silent35" target="pi13"/>
+      <arc id="139967191221392" source="pi44" target="silent64"/>
+      <arc id="139967192530080" source="silent20" target="pi1"/>
+      <arc id="139967000997024" source="source" target="silent-begin"/>
+      <arc id="139967192091808" source="Return ER" target="pi87"/>
+      <arc id="139967186301088" source="pi44" target="silent4"/>
+      <arc id="139967192528544" source="silent19" target="pi1"/>
+      <arc id="139967162107552" source="silent30" target="pi3"/>
+      <arc id="139967191766688" source="silent42" target="pi14"/>
+      <arc id="139964318594720" source="silent60" target="pi17"/>
+      <arc id="139967162106544" source="pi4" target="silent26"/>
+      <arc id="139967187308208" source="silent8" target="pi9"/>
+      <arc id="139967162109616" source="pi12" target="ER Triage"/>
+      <arc id="139967191223984" source="pi8" target="silent63"/>
+      <arc id="139967191220912" source="silent63" target="pi18"/>
+      <arc id="139964319373488" source="pi65" target="silent71"/>
+      <arc id="139967188776128" source="ER Registration" target="pi3"/>
+      <arc id="139967192089792" source="Release B" target="pi79"/>
+      <arc id="139967162107072" source="pi51" target="silent29"/>
+      <arc id="139967194338496" source="silent52" target="pi16"/>
+      <arc id="139967183952576" source="silent57" target="pi16"/>
+      <arc id="139967163208896" source="pi51" target="silent72"/>
+      <arc id="139967190628048" source="pi59" target="silent17"/>
+      <arc id="139967190629584" source="silent17" target="pi1"/>
+      <arc id="139967190163664" source="silent25" target="pi3"/>
+      <arc id="139967162109136" source="pi87" target="silent34"/>
+      <arc id="139964319373008" source="silent70" target="pi19"/>
+      <arc id="139967163211056" source="silent72" target="pi58"/>
+      <arc id="139967188777184" source="CRP" target="pi20"/>
+      <arc id="139967193211616" source="pi5" target="Admission IC"/>
+      <arc id="139967186301664" source="silent4" target="pi9"/>
+      <arc id="139967192527584" source="pi87" target="silent20"/>
+      <arc id="139964318595296" source="pi17" target="Release A"/>
+      <arc id="139967190166256" source="silent22" target="pi2"/>
+      <arc id="139967162108656" source="pi3" target="ER Sepsis Triage"/>
+      <arc id="139967190629104" source="pi44" target="silent15"/>
+      <arc id="139967183645424" source="silent48" target="pi15"/>
+      <arc id="139967192527104" source="pi0" target="silent21"/>
+      <arc id="139967192528640" source="pi2" target="ER Registration"/>
+      <arc id="139967162106112" source="pi8" target="silent27"/>
+      <arc id="139967162107648" source="pi65" target="silent40"/>
+      <arc id="139967162109184" source="silent40" target="pi13"/>
+      <arc id="139967194337536" source="pi8" target="silent50"/>
+      <arc id="139964323243776" source="silent55" target="pi16"/>
+      <arc id="139967183950080" source="pi75" target="silent58"/>
+      <arc id="139964318702848" source="pi30" target="Release C"/>
+      <arc id="139967190164240" source="silent23" target="pi2"/>
+      <arc id="139964319372048" source="pi8" target="silent69"/>
+      <arc id="139967192089888" source="Release E" target="pi74"/>
+      <arc id="139967192091424" source="Release C" target="pi74"/>
+      <arc id="139967186893600" source="LacticAcid" target="pi59"/>
+      <arc id="139967186302240" source="pi51" target="silent5"/>
+      <arc id="139967192528160" source="pi75" target="silent19"/>
+      <arc id="139967183951136" source="pi65" target="silent57"/>
+      <arc id="139964318700832" source="pi20" target="silent66"/>
+      <arc id="139967189161776" source="silent10" target="pi1"/>
+      <arc id="139967190326576" source="pi20" target="silent12"/>
+      <arc id="139967190165296" source="pi59" target="silent24"/>
+      <arc id="139967190166832" source="pi0" target="silent25"/>
+      <arc id="139967162107696" source="pi20" target="silent28"/>
+      <arc id="139967183646000" source="silent46" target="pi15"/>
+      <arc id="139967183644464" source="pi20" target="silent47"/>
+      <arc id="139964323245360" source="pi44" target="silent54"/>
+      <arc id="139964323242288" source="silent54" target="pi16"/>
+      <arc id="139967191222064" source="pi18" target="Release B"/>
+      <arc id="139967163211584" source="silent71" target="pi74"/>
+      <arc id="139967000997696" source="silent-end" target="sink"/>
+      <arc id="139967193213248" source="silent2" target="pi9"/>
+      <arc id="139967192530752" source="silent21" target="pi2"/>
+      <arc id="139967162108224" source="pi79" target="silent32"/>
+      <arc id="139967191765824" source="silent41" target="pi14"/>
+      <arc id="139967191767360" source="pi39" target="silent44"/>
+      <arc id="139967194341184" source="pi16" target="Leucocytes"/>
+      <arc id="139967194338112" source="silent51" target="pi16"/>
+      <arc id="139964318595392" source="silent61" target="pi17"/>
+      <arc id="139964318703424" source="silent68" target="pi30"/>
+      <arc id="139967163209856" source="pi75" target="silent73"/>
+      <arc id="139967189162832" source="pi8" target="silent11"/>
+      <arc id="139967162107216" source="pi8" target="silent41"/>
+      <arc id="139967191223120" source="silent62" target="pi17"/>
+      <arc id="139964319374160" source="silent69" target="pi19"/>
+      <arc id="139967188776800" source="Admission IC" target="pi4"/>
+      <arc id="139967186301280" source="silent3" target="pi9"/>
+      <arc id="139967163211104" source="pi79" target="silent74"/>
+      <arc id="139967187305328" source="pi59" target="silent6"/>
+      <arc id="139967187308400" source="pi65" target="silent7"/>
+      <arc id="139967187306864" source="pi79" target="silent8"/>
+      <arc id="139967189160816" source="pi1" target="CRP"/>
+      <arc id="139967190327152" source="silent13" target="pi1"/>
+      <arc id="139967190167408" source="pi20" target="silent22"/>
+      <arc id="139967162106736" source="silent26" target="pi3"/>
+      <arc id="139964319375216" source="pi19" target="Release D"/>
+      <arc id="139967163211632" source="pi74" target="Return ER"/>
+      <arc id="139967163210096" source="pi84" target="silent75"/>
+      <arc id="139967186892160" source="IV Liquid" target="pi51"/>
+      <arc id="139967186303872" source="pi20" target="silent3"/>
+      <arc id="139967162107264" source="silent33" target="pi12"/>
+      <arc id="139967191766400" source="pi14" target="IV Liquid"/>
+      <arc id="139967191767936" source="silent43" target="pi14"/>
+      <arc id="139967194340224" source="pi32" target="silent52"/>
+      <arc id="139967163209088" source="silent76" target="pi58"/>
+      <arc id="139967189163408" source="silent9" target="pi1"/>
+      <arc id="139967190325136" source="silent12" target="pi1"/>
+      <arc id="139967190626704" source="silent16" target="pi1"/>
+      <arc id="139967162109328" source="pi13" target="IV Antibiotics"/>
+      <arc id="139967162107792" source="silent36" target="pi13"/>
+      <arc id="139967162106256" source="pi51" target="silent38"/>
+      <arc id="139967191220624" source="pi65" target="silent62"/>
+      <arc id="139967192092576" source="Release D" target="pi84"/>
+      <arc id="139967186894752" source="Release A" target="pi75"/>
+      <arc id="139964318597024" source="pi20" target="silent60"/>
+      <arc id="139967189162928" source="pi0" target="silent9"/>
+      <arc id="139967189161392" source="pi4" target="silent10"/>
+      <arc id="139967162107312" source="silent32" target="pi12"/>
+      <arc id="139967188776896" source="Admission NC" target="pi8"/>
+      <arc id="139967188778432" source="ER Sepsis Triage" target="pi32"/>
+      <arc id="139967162107840" source="silent27" target="pi3"/>
+      <arc id="139967191766976" source="pi32" target="silent43"/>
+      <arc id="139964323245504" source="pi59" target="silent56"/>
+      <arc id="139964318701504" source="pi79" target="silent68"/>
+      <arc id="139967163209664" source="silent73" target="pi58"/>
+      <arc id="139967190630352" source="pi51" target="silent16"/>
+      <arc id="139967183646672" source="pi65" target="silent49"/>
+      <arc id="139967183953872" source="pi8" target="silent59"/>
+      <arc id="139967191221200" source="silent64" target="pi18"/>
+      <arc id="139964319372240" source="pi20" target="Release E"/>
+      <arc id="139967163208656" source="pi58" target="silent-end"/>
+      <arc id="139967188777952" source="IV Antibiotics" target="pi44"/>
+      <arc id="139967191766496" source="pi20" target="silent42"/>
+      <arc id="139967183952864" source="silent56" target="pi16"/>
+      <arc id="139964318702560" source="silent67" target="pi30"/>
+      <arc id="139967187304944" source="silent5" target="pi9"/>
+      <arc id="139967190326768" source="pi32" target="silent13"/>
+      <arc id="139967162107888" source="pi84" target="silent33"/>
+      <arc id="139967162106352" source="pi20" target="silent36"/>
+      <arc id="139967162109424" source="pi59" target="silent39"/>
+      <arc id="139967183644656" source="pi8" target="silent46"/>
+      <arc id="139967183643120" source="pi32" target="silent48"/>
+      <arc id="139967163208176" source="pi87" target="silent76"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

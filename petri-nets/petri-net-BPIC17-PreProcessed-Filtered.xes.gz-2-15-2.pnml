@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="pi6">
+        <name>
+          <text>pi6</text>
+        </name>
+      </place>
+      <place id="pi8">
+        <name>
+          <text>pi8</text>
+        </name>
+      </place>
+      <place id="pi11">
+        <name>
+          <text>pi11</text>
+        </name>
+      </place>
+      <place id="pi13">
+        <name>
+          <text>pi13</text>
+        </name>
+      </place>
+      <place id="pi19">
+        <name>
+          <text>pi19</text>
+        </name>
+      </place>
+      <place id="pi27">
+        <name>
+          <text>pi27</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="pi3">
+        <name>
+          <text>pi3</text>
+        </name>
+      </place>
+      <place id="pi5">
+        <name>
+          <text>pi5</text>
+        </name>
+      </place>
+      <place id="pi7">
+        <name>
+          <text>pi7</text>
+        </name>
+      </place>
+      <place id="pi9">
+        <name>
+          <text>pi9</text>
+        </name>
+      </place>
+      <place id="pi24">
+        <name>
+          <text>pi24</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pi0">
+        <name>
+          <text>pi0</text>
+        </name>
+      </place>
+      <place id="pi2">
+        <name>
+          <text>pi2</text>
+        </name>
+      </place>
+      <place id="pi1">
+        <name>
+          <text>pi1</text>
+        </name>
+      </place>
+      <place id="pi12">
+        <name>
+          <text>pi12</text>
+        </name>
+      </place>
+      <place id="pi15">
+        <name>
+          <text>pi15</text>
+        </name>
+      </place>
+      <place id="pi16">
+        <name>
+          <text>pi16</text>
+        </name>
+      </place>
+      <place id="pi10">
+        <name>
+          <text>pi10</text>
+        </name>
+      </place>
+      <place id="pi4">
+        <name>
+          <text>pi4</text>
+        </name>
+      </place>
+      <transition id="silent0">
+        <name>
+          <text>silent0</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c42a0d6e-1af0-49b4-88e8-3da6793a613a"/>
+      </transition>
+      <transition id="silent1">
+        <name>
+          <text>silent1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="adda6f5f-0a89-4b82-9e6b-92f0598b87ee"/>
+      </transition>
+      <transition id="silent9">
+        <name>
+          <text>silent9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="48918fc3-26b4-4942-baef-55f5a68dc14c"/>
+      </transition>
+      <transition id="O_Refused">
+        <name>
+          <text>O_Refused</text>
+        </name>
+      </transition>
+      <transition id="A_Denied">
+        <name>
+          <text>A_Denied</text>
+        </name>
+      </transition>
+      <transition id="A_Submitted">
+        <name>
+          <text>A_Submitted</text>
+        </name>
+      </transition>
+      <transition id="O_Sent (mail and online)">
+        <name>
+          <text>O_Sent (mail and online)</text>
+        </name>
+      </transition>
+      <transition id="silent-end">
+        <name>
+          <text>silent-end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="71686cf0-7359-4a48-9ccf-bb1fe12c7a4f"/>
+      </transition>
+      <transition id="O_Create Offer">
+        <name>
+          <text>O_Create Offer</text>
+        </name>
+      </transition>
+      <transition id="silent-begin">
+        <name>
+          <text>silent-begin</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e7901c81-4c02-4b69-8013-64e6fa8e17d8"/>
+      </transition>
+      <transition id="A_Complete">
+        <name>
+          <text>A_Complete</text>
+        </name>
+      </transition>
+      <transition id="O_Created">
+        <name>
+          <text>O_Created</text>
+        </name>
+      </transition>
+      <transition id="silent4">
+        <name>
+          <text>silent4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7fa1798d-835e-42e3-9275-ff4bc78bbb63"/>
+      </transition>
+      <transition id="W_Handle leads">
+        <name>
+          <text>W_Handle leads</text>
+        </name>
+      </transition>
+      <transition id="W_Validate application">
+        <name>
+          <text>W_Validate application</text>
+        </name>
+      </transition>
+      <transition id="W_Call after offers">
+        <name>
+          <text>W_Call after offers</text>
+        </name>
+      </transition>
+      <transition id="W_Complete application">
+        <name>
+          <text>W_Complete application</text>
+        </name>
+      </transition>
+      <transition id="A_Accepted">
+        <name>
+          <text>A_Accepted</text>
+        </name>
+      </transition>
+      <transition id="A_Validating">
+        <name>
+          <text>A_Validating</text>
+        </name>
+      </transition>
+      <transition id="O_Accepted">
+        <name>
+          <text>O_Accepted</text>
+        </name>
+      </transition>
+      <transition id="silent2">
+        <name>
+          <text>silent2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="51281c8f-ef77-4a42-a2a8-5d33e5a6a837"/>
+      </transition>
+      <transition id="silent3">
+        <name>
+          <text>silent3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ae528468-dd56-467b-abf7-17b628c17fe5"/>
+      </transition>
+      <transition id="silent5">
+        <name>
+          <text>silent5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="318ba283-1f29-40c5-92f7-0d4022a2ca9f"/>
+      </transition>
+      <transition id="silent6">
+        <name>
+          <text>silent6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5335737a-4806-4ca0-b266-f06b6bef0ec7"/>
+      </transition>
+      <transition id="silent7">
+        <name>
+          <text>silent7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12dd8517-8de8-43e6-b05b-7ee40c9c03a8"/>
+      </transition>
+      <transition id="silent8">
+        <name>
+          <text>silent8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5acc30ae-f317-4250-bfe4-994b00ec0ffd"/>
+      </transition>
+      <transition id="O_Returned">
+        <name>
+          <text>O_Returned</text>
+        </name>
+      </transition>
+      <transition id="A_Create Application">
+        <name>
+          <text>A_Create Application</text>
+        </name>
+      </transition>
+      <transition id="A_Concept">
+        <name>
+          <text>A_Concept</text>
+        </name>
+      </transition>
+      <transition id="A_Pending">
+        <name>
+          <text>A_Pending</text>
+        </name>
+      </transition>
+      <transition id="silent10">
+        <name>
+          <text>silent10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="880e1dfa-7784-45a2-900a-40459b85669a"/>
+      </transition>
+      <arc id="139963861445888" source="silent-begin" target="pi0"/>
+      <arc id="139963861443200" source="silent-end" target="sink"/>
+      <arc id="139963702647680" source="A_Denied" target="pi6"/>
+      <arc id="139963570407936" source="O_Create Offer" target="pi11"/>
+      <arc id="139963570409088" source="O_Created" target="pi12"/>
+      <arc id="139963628835072" source="silent0" target="pi3"/>
+      <arc id="139963628837760" source="pi5" target="A_Concept"/>
+      <arc id="139963628835456" source="pi0" target="A_Create Application"/>
+      <arc id="139963628838048" source="pi10" target="A_Pending"/>
+      <arc id="139963839675264" source="pi11" target="O_Created"/>
+      <arc id="139963839672576" source="silent3" target="pi2"/>
+      <arc id="139963839672960" source="pi6" target="O_Refused"/>
+      <arc id="139963631911552" source="silent6" target="pi15"/>
+      <arc id="139963631913664" source="silent9" target="pi7"/>
+      <arc id="139963839676320" source="silent4" target="pi2"/>
+      <arc id="139963702648352" source="A_Accepted" target="pi1"/>
+      <arc id="139963702644896" source="A_Complete" target="pi2"/>
+      <arc id="139963702647968" source="A_Pending" target="pi7"/>
+      <arc id="139963570405920" source="A_Submitted" target="pi8"/>
+      <arc id="139963570408608" source="O_Accepted" target="pi10"/>
+      <arc id="139963570407456" source="W_Validate application" target="pi27"/>
+      <arc id="139963628835744" source="pi19" target="silent0"/>
+      <arc id="139963628836896" source="pi4" target="silent1"/>
+      <arc id="139963628836512" source="silent2" target="pi5"/>
+      <arc id="139963628837664" source="pi27" target="A_Denied"/>
+      <arc id="139963839674592" source="pi19" target="silent4"/>
+      <arc id="139963631914432" source="pi7" target="W_Validate application"/>
+      <arc id="139965430934448" source="pi27" target="silent10"/>
+      <arc id="139963839672864" source="pi12" target="O_Sent (mail and online)"/>
+      <arc id="139963839674976" source="pi8" target="W_Handle leads"/>
+      <arc id="139963839674112" source="pi16" target="silent3"/>
+      <arc id="139963631912704" source="pi27" target="silent-end"/>
+      <arc id="139963631914816" source="pi24" target="silent7"/>
+      <arc id="139963702648256" source="A_Create Application" target="pi4"/>
+      <arc id="139963570405440" source="O_Sent (mail and online)" target="pi15"/>
+      <arc id="139963570406208" source="A_Validating" target="pi9"/>
+      <arc id="139963702647488" source="pi3" target="A_Accepted"/>
+      <arc id="139963570407360" source="pi16" target="A_Complete"/>
+      <arc id="139963628836800" source="silent1" target="pi5"/>
+      <arc id="139963628836032" source="pi27" target="A_Validating"/>
+      <arc id="139963839675456" source="pi2" target="W_Call after offers"/>
+      <arc id="139963631912512" source="pi19" target="silent5"/>
+      <arc id="139963631913952" source="silent5" target="pi15"/>
+      <arc id="139963631913088" source="pi24" target="silent6"/>
+      <arc id="139963631912224" source="silent7" target="pi8"/>
+      <arc id="139965430933584" source="silent10" target="pi7"/>
+      <arc id="139963839674880" source="pi9" target="O_Returned"/>
+      <arc id="139963861445600" source="source" target="silent-begin"/>
+      <arc id="139963702645472" source="A_Concept" target="pi3"/>
+      <arc id="139963570407648" source="O_Returned" target="pi7"/>
+      <arc id="139963570408800" source="O_Refused" target="pi13"/>
+      <arc id="139963570406496" source="W_Complete application" target="pi19"/>
+      <arc id="139963570406880" source="W_Call after offers" target="pi16"/>
+      <arc id="139963570408032" source="W_Handle leads" target="pi24"/>
+      <arc id="139963628837088" source="pi19" target="silent2"/>
+      <arc id="139963628835936" source="pi4" target="A_Submitted"/>
+      <arc id="139963839676128" source="pi27" target="O_Accepted"/>
+      <arc id="139963839674400" source="pi1" target="O_Create Offer"/>
+      <arc id="139963631914240" source="silent8" target="pi7"/>
+      <arc id="139963631911264" source="pi13" target="silent8"/>
+      <arc id="139963631913376" source="pi16" target="silent9"/>
+      <arc id="139963839675168" source="pi15" target="W_Complete application"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

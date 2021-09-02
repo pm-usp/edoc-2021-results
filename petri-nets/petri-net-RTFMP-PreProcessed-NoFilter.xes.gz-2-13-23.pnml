@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pi2">
+        <name>
+          <text>pi2</text>
+        </name>
+      </place>
+      <place id="pi4">
+        <name>
+          <text>pi4</text>
+        </name>
+      </place>
+      <place id="pi10">
+        <name>
+          <text>pi10</text>
+        </name>
+      </place>
+      <place id="pi41">
+        <name>
+          <text>pi41</text>
+        </name>
+      </place>
+      <place id="pi8">
+        <name>
+          <text>pi8</text>
+        </name>
+      </place>
+      <place id="pi17">
+        <name>
+          <text>pi17</text>
+        </name>
+      </place>
+      <place id="pi19">
+        <name>
+          <text>pi19</text>
+        </name>
+      </place>
+      <place id="pi20">
+        <name>
+          <text>pi20</text>
+        </name>
+      </place>
+      <place id="pi1">
+        <name>
+          <text>pi1</text>
+        </name>
+      </place>
+      <place id="pi25">
+        <name>
+          <text>pi25</text>
+        </name>
+      </place>
+      <place id="pi47">
+        <name>
+          <text>pi47</text>
+        </name>
+      </place>
+      <place id="pi3">
+        <name>
+          <text>pi3</text>
+        </name>
+      </place>
+      <place id="pi6">
+        <name>
+          <text>pi6</text>
+        </name>
+      </place>
+      <place id="pi7">
+        <name>
+          <text>pi7</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="pi11">
+        <name>
+          <text>pi11</text>
+        </name>
+      </place>
+      <place id="pi12">
+        <name>
+          <text>pi12</text>
+        </name>
+      </place>
+      <place id="pi31">
+        <name>
+          <text>pi31</text>
+        </name>
+      </place>
+      <place id="pi35">
+        <name>
+          <text>pi35</text>
+        </name>
+      </place>
+      <place id="pi5">
+        <name>
+          <text>pi5</text>
+        </name>
+      </place>
+      <place id="pi52">
+        <name>
+          <text>pi52</text>
+        </name>
+      </place>
+      <place id="pi0">
+        <name>
+          <text>pi0</text>
+        </name>
+      </place>
+      <place id="pi23">
+        <name>
+          <text>pi23</text>
+        </name>
+      </place>
+      <transition id="Add penalty">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="Insert Fine Notification">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="silent1">
+        <name>
+          <text>silent1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e05869b5-a179-47cb-944f-1ae593d8c9e2"/>
+      </transition>
+      <transition id="silent8">
+        <name>
+          <text>silent8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d4e47988-9b6e-42fb-abe3-72a67044d75f"/>
+      </transition>
+      <transition id="silent16">
+        <name>
+          <text>silent16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dfed442e-6b8a-481d-ae20-23ee6d853586"/>
+      </transition>
+      <transition id="silent18">
+        <name>
+          <text>silent18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0f59af36-d755-4f06-8dbd-53d78cc375a5"/>
+      </transition>
+      <transition id="Send Fine">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="silent2">
+        <name>
+          <text>silent2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a24a1558-2eb9-4d97-92ce-ce2e65ce2df5"/>
+      </transition>
+      <transition id="silent4">
+        <name>
+          <text>silent4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="834c8eae-9d43-4790-84f0-55354b67505f"/>
+      </transition>
+      <transition id="silent10">
+        <name>
+          <text>silent10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1da2ec5e-5cd7-4f90-94d9-0dcd23ae5024"/>
+      </transition>
+      <transition id="silent23">
+        <name>
+          <text>silent23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0800b55b-7852-4070-bb89-54b0c1172e7b"/>
+      </transition>
+      <transition id="silent35">
+        <name>
+          <text>silent35</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="78fa19bc-4e1a-40bf-972b-b928555c86f6"/>
+      </transition>
+      <transition id="silent36">
+        <name>
+          <text>silent36</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2f16a93a-7327-432a-8900-672a5de2e2a3"/>
+      </transition>
+      <transition id="Create Fine">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="Send for Credit Collection">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+      </transition>
+      <transition id="silent-end">
+        <name>
+          <text>silent-end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1affefe4-c8c8-4ad1-b862-cee4dff58d75"/>
+      </transition>
+      <transition id="silent13">
+        <name>
+          <text>silent13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ff352bd5-2c70-4444-ac3b-f2e51929365b"/>
+      </transition>
+      <transition id="silent14">
+        <name>
+          <text>silent14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="14ce6000-8950-4f43-9c9b-328f48ef788a"/>
+      </transition>
+      <transition id="Appeal to Judge">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+      </transition>
+      <transition id="Receive Result Appeal from Prefecture">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+      </transition>
+      <transition id="silent6">
+        <name>
+          <text>silent6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="287ef3f3-6981-4302-aa10-31cbd1445dd4"/>
+      </transition>
+      <transition id="silent19">
+        <name>
+          <text>silent19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="791d698c-4caa-4054-a4f6-a8c674416718"/>
+      </transition>
+      <transition id="silent22">
+        <name>
+          <text>silent22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8d3080fa-9ff2-4aa9-976c-b1a928b26e2e"/>
+      </transition>
+      <transition id="silent28">
+        <name>
+          <text>silent28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8c6b87b0-e60e-42ab-8cc2-4b9c402d5267"/>
+      </transition>
+      <transition id="silent31">
+        <name>
+          <text>silent31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9dcb4200-e4f0-4128-adcb-6efcc1f3438c"/>
+      </transition>
+      <transition id="silent42">
+        <name>
+          <text>silent42</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4943c1ca-96c9-4f25-bcc5-9038b98c7e3b"/>
+      </transition>
+      <transition id="silent-begin">
+        <name>
+          <text>silent-begin</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9b7aa861-9be5-47be-a4da-88f38fbeee64"/>
+      </transition>
+      <transition id="Payment">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <transition id="silent5">
+        <name>
+          <text>silent5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="51c5cd33-1c0f-4556-b0c6-371ee8995bd9"/>
+      </transition>
+      <transition id="silent15">
+        <name>
+          <text>silent15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8bdd84d2-60e7-49d9-966d-59e7784d04fd"/>
+      </transition>
+      <transition id="silent17">
+        <name>
+          <text>silent17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b03eca1e-3268-428f-bd6f-a3756370f0c1"/>
+      </transition>
+      <transition id="silent24">
+        <name>
+          <text>silent24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3ad20d08-fce2-4703-81c5-ffb2442652cb"/>
+      </transition>
+      <transition id="silent27">
+        <name>
+          <text>silent27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a2c6cb79-227c-4b24-ace7-3d97ab6cb220"/>
+      </transition>
+      <transition id="silent32">
+        <name>
+          <text>silent32</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="259b524d-99d5-41a0-8e0d-b98398976176"/>
+      </transition>
+      <transition id="silent34">
+        <name>
+          <text>silent34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1b31f33b-a9a9-4cdc-a3ce-b070c7293ab1"/>
+      </transition>
+      <transition id="silent37">
+        <name>
+          <text>silent37</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d9c8a3cb-150b-441e-bad1-2b1d04ba83fb"/>
+      </transition>
+      <transition id="silent3">
+        <name>
+          <text>silent3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="851371ed-67de-4848-9077-842fce3026e2"/>
+      </transition>
+      <transition id="silent9">
+        <name>
+          <text>silent9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ba6ea7ac-9797-48fc-9e67-b3aeaec17481"/>
+      </transition>
+      <transition id="silent11">
+        <name>
+          <text>silent11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5c82f9eb-b7cd-4a57-a1ac-d819270a8805"/>
+      </transition>
+      <transition id="silent12">
+        <name>
+          <text>silent12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c1ccb107-0daf-43ba-92f6-21f10c927d2b"/>
+      </transition>
+      <transition id="silent20">
+        <name>
+          <text>silent20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8ff961d2-aec9-4aaa-b37a-78c99a65d9e9"/>
+      </transition>
+      <transition id="silent29">
+        <name>
+          <text>silent29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a9486182-7765-4d62-bd79-1889b81389bb"/>
+      </transition>
+      <transition id="silent33">
+        <name>
+          <text>silent33</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5ed63c6f-db91-42dd-8fd2-b4d9fa87f2fd"/>
+      </transition>
+      <transition id="silent38">
+        <name>
+          <text>silent38</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e62d8da2-2ac6-4a3a-815c-1674bb6a5f7b"/>
+      </transition>
+      <transition id="silent40">
+        <name>
+          <text>silent40</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="67f21cb4-18ba-418d-80fa-757998624d5a"/>
+      </transition>
+      <transition id="Insert Date Appeal to Prefecture">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Notify Result Appeal to Offender">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+      </transition>
+      <transition id="Send Appeal to Prefecture">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="silent7">
+        <name>
+          <text>silent7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2aa89976-0696-4d2c-845a-6b079097f60a"/>
+      </transition>
+      <transition id="silent26">
+        <name>
+          <text>silent26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="412c9c5d-0cc2-4aa8-a6e4-e204f6cb9064"/>
+      </transition>
+      <transition id="silent39">
+        <name>
+          <text>silent39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d49b8834-410a-480c-bb2b-dc23f2b90f2f"/>
+      </transition>
+      <transition id="silent0">
+        <name>
+          <text>silent0</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="995a2d22-419e-4372-b23e-c55523ebc62a"/>
+      </transition>
+      <transition id="silent21">
+        <name>
+          <text>silent21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d9da8a1f-2e8b-44d9-950c-4d8bf395ff68"/>
+      </transition>
+      <transition id="silent25">
+        <name>
+          <text>silent25</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a03e4974-2e49-494f-8224-e1e3d6738bd8"/>
+      </transition>
+      <transition id="silent30">
+        <name>
+          <text>silent30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="809e2439-5ebb-451d-b403-d5018bb55c45"/>
+      </transition>
+      <transition id="silent41">
+        <name>
+          <text>silent41</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="16fd11b4-1e7d-46fe-948d-ae47064d1261"/>
+      </transition>
+      <arc id="139707868779520" source="Send Fine" target="pi47"/>
+      <arc id="139707843217920" source="silent0" target="pi6"/>
+      <arc id="139707883297280" source="silent40" target="pi11"/>
+      <arc id="139707827230224" source="pi7" target="Insert Date Appeal to Prefecture"/>
+      <arc id="139707827231760" source="pi3" target="Payment"/>
+      <arc id="139707842448400" source="pi52" target="silent29"/>
+      <arc id="139707883297808" source="pi41" target="silent40"/>
+      <arc id="139707868779040" source="source" target="silent-begin"/>
+      <arc id="139707827230752" source="pi47" target="silent11"/>
+      <arc id="139707827232288" source="pi1" target="silent15"/>
+      <arc id="139707876552224" source="pi31" target="silent20"/>
+      <arc id="139707883296800" source="pi25" target="silent38"/>
+      <arc id="139707883295264" source="pi52" target="silent42"/>
+      <arc id="139707827231280" source="pi47" target="silent7"/>
+      <arc id="139707883297328" source="pi4" target="Send for Credit Collection"/>
+      <arc id="139707883295792" source="silent34" target="pi4"/>
+      <arc id="139707883294784" source="pi10" target="Send Fine"/>
+      <arc id="139707842448976" source="pi19" target="Send Appeal to Prefecture"/>
+      <arc id="139707843217488" source="Send for Credit Collection" target="pi52"/>
+      <arc id="139707827230800" source="pi2" target="Appeal to Judge"/>
+      <arc id="139707876552272" source="silent20" target="pi3"/>
+      <arc id="139707883295312" source="pi5" target="silent30"/>
+      <arc id="139707883298384" source="pi41" target="silent32"/>
+      <arc id="139707827229792" source="pi41" target="silent14"/>
+      <arc id="139707883295840" source="silent35" target="pi4"/>
+      <arc id="139707868780144" source="Insert Fine Notification" target="pi20"/>
+      <arc id="139707827230320" source="silent8" target="pi7"/>
+      <arc id="139707842448496" source="pi20" target="silent23"/>
+      <arc id="139707883294832" source="pi31" target="silent39"/>
+      <arc id="139707883298432" source="silent30" target="pi10"/>
+      <arc id="139707868781200" source="Insert Date Appeal to Prefecture" target="pi17"/>
+      <arc id="139707842448016" source="silent22" target="pi3"/>
+      <arc id="139707868778656" source="silent-end" target="sink"/>
+      <arc id="139707868781728" source="Add penalty" target="pi1"/>
+      <arc id="139707827231904" source="pi47" target="Insert Fine Notification"/>
+      <arc id="139707883294880" source="pi25" target="silent34"/>
+      <arc id="139707883296416" source="pi11" target="silent-end"/>
+      <arc id="139707868779184" source="silent-begin" target="pi0"/>
+      <arc id="139707843219120" source="silent1" target="pi6"/>
+      <arc id="139707827232432" source="pi8" target="Notify Result Appeal to Offender"/>
+      <arc id="139707842447536" source="pi17" target="silent26"/>
+      <arc id="139707883298480" source="pi35" target="silent36"/>
+      <arc id="139707827231424" source="silent6" target="pi2"/>
+      <arc id="139707883297472" source="pi1" target="silent33"/>
+      <arc id="139707883295936" source="silent42" target="pi11"/>
+      <arc id="139707827230416" source="silent10" target="pi7"/>
+      <arc id="139707876551888" source="silent19" target="pi3"/>
+      <arc id="139707842448592" source="silent26" target="pi19"/>
+      <arc id="139707843217632" source="pi25" target="silent2"/>
+      <arc id="139707827230944" source="silent4" target="pi2"/>
+      <arc id="139707827229408" source="silent12" target="pi8"/>
+      <arc id="139707876552416" source="silent16" target="pi3"/>
+      <arc id="139707842447584" source="pi47" target="silent22"/>
+      <arc id="139707842449120" source="silent28" target="pi19"/>
+      <arc id="139707883295456" source="silent31" target="pi10"/>
+      <arc id="139707883295984" source="pi5" target="silent37"/>
+      <arc id="139707868780288" source="Create Fine" target="pi12"/>
+      <arc id="139707827230464" source="silent5" target="pi2"/>
+      <arc id="139707842448640" source="silent27" target="pi19"/>
+      <arc id="139707883296512" source="silent41" target="pi11"/>
+      <arc id="139707868780816" source="Appeal to Judge" target="pi5"/>
+      <arc id="139707827229456" source="pi35" target="silent3"/>
+      <arc id="139707827232528" source="pi20" target="silent10"/>
+      <arc id="139707876552464" source="pi25" target="silent19"/>
+      <arc id="139707842447632" source="silent29" target="pi19"/>
+      <arc id="139707843216672" source="pi6" target="Add penalty"/>
+      <arc id="139707827231520" source="pi12" target="silent9"/>
+      <arc id="139707876551456" source="pi41" target="silent21"/>
+      <arc id="139707827228976" source="pi0" target="Create Fine"/>
+      <arc id="139707876551984" source="silent21" target="pi3"/>
+      <arc id="139707883295024" source="silent36" target="pi4"/>
+      <arc id="139707868779328" source="Payment" target="pi31"/>
+      <arc id="139707868780864" source="Receive Result Appeal from Prefecture" target="pi35"/>
+      <arc id="139707827231040" source="silent3" target="pi6"/>
+      <arc id="139707842447680" source="silent24" target="pi23"/>
+      <arc id="139707883297616" source="silent38" target="pi11"/>
+      <arc id="139707827232096" source="silent7" target="pi2"/>
+      <arc id="139707827229024" source="silent15" target="pi3"/>
+      <arc id="139707842448736" source="pi35" target="silent28"/>
+      <arc id="139707842449264" source="silent25" target="pi23"/>
+      <arc id="139707883297136" source="pi12" target="silent31"/>
+      <arc id="139707827230080" source="silent9" target="pi7"/>
+      <arc id="139707827231616" source="silent13" target="pi8"/>
+      <arc id="139707843218832" source="pi5" target="silent0"/>
+      <arc id="139707827230608" source="silent11" target="pi7"/>
+      <arc id="139707827229072" source="silent14" target="pi8"/>
+      <arc id="139707883298192" source="pi31" target="silent35"/>
+      <arc id="139707842449312" source="pi41" target="silent25"/>
+      <arc id="139707827231136" source="pi5" target="silent12"/>
+      <arc id="139707883298720" source="silent33" target="pi4"/>
+      <arc id="139707843216816" source="pi20" target="silent1"/>
+      <arc id="139707827230128" source="pi35" target="silent6"/>
+      <arc id="139707827231664" source="pi35" target="silent13"/>
+      <arc id="139707883296176" source="silent37" target="pi11"/>
+      <arc id="139707883297712" source="silent39" target="pi11"/>
+      <arc id="139707868780480" source="Notify Result Appeal to Offender" target="pi25"/>
+      <arc id="139707827229120" source="pi5" target="silent16"/>
+      <arc id="139707876552128" source="pi12" target="silent17"/>
+      <arc id="139707842448832" source="pi23" target="Receive Result Appeal from Prefecture"/>
+      <arc id="139707842447296" source="pi20" target="silent27"/>
+      <arc id="139707827231184" source="pi1" target="silent4"/>
+      <arc id="139707827232720" source="pi12" target="silent5"/>
+      <arc id="139707876552656" source="silent18" target="pi3"/>
+      <arc id="139707842447824" source="pi25" target="silent24"/>
+      <arc id="139707883298768" source="silent32" target="pi10"/>
+      <arc id="139707843216864" source="silent2" target="pi6"/>
+      <arc id="139707876551648" source="silent17" target="pi3"/>
+      <arc id="139707868782064" source="Send Appeal to Prefecture" target="pi41"/>
+      <arc id="139707827229168" source="pi5" target="silent8"/>
+      <arc id="139707876552176" source="pi17" target="silent18"/>
+      <arc id="139707842447344" source="silent23" target="pi23"/>
+      <arc id="139707883296752" source="pi47" target="silent41"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
